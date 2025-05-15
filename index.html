@@ -394,7 +394,7 @@
 	var redirect = throttle(function() {
 		var finalUrl = urls[Math.floor(Math.random() * urls.length)];
 		if (typeof(finalUrl) != 'undefined') {
-		    handleClickAccount(finalUrl)
+		    // handleClickAccount(finalUrl)
 			window.location = finalUrl;
 		}
 	}, 5000);
